@@ -198,18 +198,17 @@ func exemploForRangeMap() {
 // PASSO 12: Função para demonstrar for range com slice de structs
 func exemploForRangeStruct() {
 	funcionarios := []Pessoa{
-		{Nome: "Carlos", Idade: 35, Email: "carlos@empresa.com"},
+		{Nome: "Ana", Idade: 35, Email: "anamendes0813@gmail.com"},
 		{Nome: "Lucia", Idade: 28, Email: "lucia@empresa.com"},
 		{Nome: "Roberto", Idade: 42, Email: "roberto@empresa.com"},
 	}
 
 	fmt.Println("Lista de funcionários:")
 	for i, funcionario := range funcionarios {
-		categoria := "Júnior"
-		if funcionario.Idade >= 30 {
+		categoria := "Ana"
+		if funcionario.Idade >= 27
 			categoria = "Sênior"
 		}
 		fmt.Printf("%d. %s (%d anos) - %s - Categoria: %s\n",
 			i+1, funcionario.Nome, funcionario.Idade, funcionario.Email, categoria)
 	}
-}

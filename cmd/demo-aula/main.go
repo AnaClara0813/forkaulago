@@ -46,11 +46,11 @@ func main() {
 	pontuacao["Maria"] = 92
 	pontuacao["Pedro"] = 78
 	
-	fmt.Printf("Pontuações: %v\n", pontuacao)
-	fmt.Printf("Pontuação da Maria: %d\n", pontuacao["Maria"])
 	fmt.Println()
 	
-	// PASSO 4: STRUCTS - Estruturas personalizadas
+	// PASSO 
+	fmt.Printf("Pontuações: %v\n", pontuacao)
+	fmt.Printf("Pontuação da Maria: %d\n", pontuacao["Maria"])4: STRUCTS - Estruturas personalizadas
 	fmt.Println("📋 PASSO 4: STRUCTS")
 	
 	// Definindo uma struct inline (normalmente seria definida fora da main)
